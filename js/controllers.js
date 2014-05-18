@@ -6,14 +6,16 @@
             function($scope) {
                 $scope.items = [{
                     name: 'Item A',
-                    score: 0
-                }, {
-                    name: 'Item B',
                     score: 1
                 }, {
-                    name: 'Item C',
+                    name: 'Item B',
                     score: 2
+                }, {
+                    name: 'Item C',
+                    score: 3
                 }];
+
+                $scope.orderBy = '-score';
             }
         ]);
 
