@@ -1,1 +1,1 @@
-test commit
+[![Build Status](https://travis-ci.org/alternatedwin/newrelic.svg?branch=master)](https://travis-ci.org/alternatedwin/newrelic)
