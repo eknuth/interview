@@ -20,9 +20,9 @@ describe('my app', function() {
 
         it('should have some items', function() {
             var itemNames = [
-                'Item A', 'Item B', 'Item C'
+                'Item C', 'Item B', 'Item A'
             ];
-            var itemScores = [0, 1, 2]
+            var itemScores = [3, 2, 1]
             element.all(by.repeater('item in items')).then(function(rows) {
                 rows.forEach(function(row, index) {
                     expect(row.getText()).toContain(itemNames[index]);
