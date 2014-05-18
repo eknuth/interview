@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="page-header">
+    <h1>
+      Interview Challenge
+      <small>
+        Ranking App Assignment
+      </small>
+    </h1>
+  </div>
+  <div class="panel panel-default" ng-repeat="item in items">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-md-2 col-xs-2">
+          <div class="btn-group-vertical">
+            <button type="button" class="btn btn-default">
+              <span class="glyphicon glyphicon-chevron-up">
+              </span>
+            </button>
+            <button type="button" class="btn btn-default">
+              <span class="glyphicon glyphicon-chevron-down">
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-7 col-xs-7">
+          <h2 class="item-name">
+            {{item.name}}
+          </h2>
+        </div>
+        <div class="col-md-3 col-xs-3">
+          <h3 class="pull-right">
+            <span class="label label-default">
+              {{item.score}}
+            </span>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
