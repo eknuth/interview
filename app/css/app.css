@@ -1,3 +1,20 @@
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none !important;
 }
+
+/* new item panel */
+.new-item .label,
+.new-item .btn-upvote,
+.new-item .btn-downvote {
+    opacity: .2 !important;
+}
+
+.new-item form {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+    .new-item form input {
+        padding-left: 5px;
+        width: 100%;
+    }
